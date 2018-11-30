@@ -24,7 +24,7 @@ public class EndPoint {
 	@Path("hello/{firstname}")
 	@Produces(MediaType.TEXT_PLAIN)
 	public String hello(@PathParam("firstname") String name) {
-	    return "hello " + name;
+	    return "hello " + firstname;
 	}
 	
 	

@@ -23,8 +23,8 @@ public class EndPoint {
 	@GET
 	@Path("hello/{firstname}")
 	@Produces(MediaType.TEXT_PLAIN)
-	public String hello(@PathParam("firstname") String name) {
-	    return "hello " + name;
+	public String hello(@PathParam("firstname") String firstname) {
+	    return "hello " + firstName;
 	}
 	
 	

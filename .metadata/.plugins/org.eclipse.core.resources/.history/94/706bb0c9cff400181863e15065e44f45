@@ -21,10 +21,10 @@ public class EndPoint {
 	    return "URI " + context.getRequestUri().toString() + " is OK!";
 	}
 	@GET
-	@Path("hello/{firstname}")
+	@Path("hello")
 	@Produces(MediaType.TEXT_PLAIN)
-	public String hello(@PathParam("firstname") String name) {
-	    return "hello " + name;
+	public String hello(@PathParam("firstName") String firstName) {
+	    return firstname;
 	}
 	
 	
