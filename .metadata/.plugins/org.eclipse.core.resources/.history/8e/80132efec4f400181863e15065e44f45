@@ -1,0 +1,8 @@
+package io.altar.sextafeira;
+
+import javax.ws.rs.Path;
+
+@Path("/exemplos")
+public class EndPoint {
+	
+}

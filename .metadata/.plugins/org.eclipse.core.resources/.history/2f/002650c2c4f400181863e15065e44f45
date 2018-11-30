@@ -1,0 +1,6 @@
+package io.altar.sextafeira;
+
+@Path("/exemplos")
+public class EndPoint {
+	
+}

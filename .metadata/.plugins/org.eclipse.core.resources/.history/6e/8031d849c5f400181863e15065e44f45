@@ -1,0 +1,17 @@
+package io.altar.sextafeira;
+
+import javax.ws.rs.Path;
+
+@Path("/exemplos")
+public class EndPoint {
+	
+	@Context
+	private UriInfo context;
+
+	@GET
+	@Path("healthCheck")
+	@Produces(MediaType.TEXT_PLAIN)
+	public String healthCheck() {
+	    return "URI " + context.getRequestUri().toString() + " is OK!";
+	}
+}
