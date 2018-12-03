@@ -1,0 +1,17 @@
+package io.altar.sextafeira;
+
+public class Car {
+	
+	int ano;
+	String marca;
+	String cor;
+	
+	public Car(int ano, String marca, String cor) {
+		super();
+		this.ano = ano;
+		this.marca = marca;
+		this.cor = cor;
+	}
+	
+	
+}
